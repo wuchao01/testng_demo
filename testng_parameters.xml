@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteName" verbose="1" parallel="methods" thread-count="2">
+    <test verbose="2" name="group01">
+        <parameter name="x" value="4"></parameter>
+        <parameter name="y" value="2"></parameter>
+        <parameter name="result" value="5"></parameter>
+
+
+        <classes>
+            <class name="example.TestNGDemo_6_1_Parameters"/>
+        </classes>
+    </test>
+</suite>
